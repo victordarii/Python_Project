@@ -87,3 +87,8 @@ s2 = 'Java'
 
 print(s1 is s2)  # if two var are referencing to the same obj ( == operator of Java)
 
+print("------------------------------")
+
+s11 = 'Hello World!'
+result = 'z' not in s11 and 'x' not in s11
+print(result)  # True
